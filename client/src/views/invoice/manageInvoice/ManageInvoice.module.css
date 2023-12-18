@@ -1,0 +1,54 @@
+.div_total{
+background-color: rgb(241, 240, 255);
+width: 100%;
+padding: 1%;
+border-radius: 20px;
+}
+.div_nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.div_nav select,input{
+  border-radius: 8px;
+  border: 1px solid var(--primary-blue, #2E65F3);
+  background: var(--primary-white, #FFF);
+}
+
+
+.refresh_div{
+  padding-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.refresh_div button{
+  background-color: #3965FF;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.refresh_div button:active:hover{
+  background-color: rgb(79, 110, 171);
+  color: white;
+}
+.div_body{
+  background-color:  white;
+  border-radius: 20px 0 ;
+  padding: 1%;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.div_body table {
+  width: 100%;
+
+}
+.div_body thead{
+  background-color: rgb(241, 240, 255);
+  border-radius: 15px;
+  color: #152b61;
+}

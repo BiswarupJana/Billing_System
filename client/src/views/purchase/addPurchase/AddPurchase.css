@@ -1,0 +1,8 @@
+.responsive-table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.responsive-table-container table {
+  width: 100%;
+}
